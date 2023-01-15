@@ -35,14 +35,14 @@ form{
     background-color: #05054690;
     padding: 20px;
 }
-input[name="first-field"],select,option{
+input[name="first-field"],select,option,textarea{
     width: 100%;
     margin: 4px 0 30px 0;
     border-radius: 5px;
     padding: 8px 0 8px 10px;
     color: #000000c4;
 }
-input[name="first-field"]:focus,select:focus{
+input[name="first-field"]:focus,select:focus,textarea:focus{
     outline: 0;
     box-shadow: 0px 0px 1px 1px #00ffff;
 }
@@ -53,11 +53,6 @@ form fieldset div{
 fieldset div:nth-child(2),button{
     margin-top: 20px;
 }
-textarea{
-    padding-left: 10px;
-    width: 100%;
-    margin-top: 4px;
-}
 button{
     background-color: #37af65;
     width: 100%;
@@ -66,4 +61,5 @@ button{
     font-size: 16px;
     margin-bottom: 100px;
     cursor: pointer;
+    border-radius: 5px;
 }
